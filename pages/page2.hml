@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+
+  <body>
+    <nav>
+      <a href="../main.html" class=btn2>Home</a>
+      <a href="page1.html"   class=btn2>Page 1</a>
+      <a href="page2.html"   class=btn2>Page 2</a>
+    </nav>
+    <h1>Page 2</h1>
+  </body>
+
+</html>
