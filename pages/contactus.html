@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <nav>
+    <a href="../main.html" class=btn2>Home</a>
+    <a href="productsservices.html" class=btn2>Products & Services</a>
+    <a href="contactus.html" class=btn2>Contact Us</a>
+  </nav>
+
+  <div class="column-layout">
+    <div class="main-column">
+      <h2>Location</h2>
+      <p>1600 Pennsylvania Ave
+        <br> NW, Washington, DC 20500</p>
+      <p><b>Phone: 708-222-2222</b></p>
+      <p>Email: cutandgo@gmail.com</p>
+    </div>
+
+    <div class="sidebar-two">
+      <h2>Hours of Operation</h2>
+      <p>7:00 A.M.- 7:00 P.M.</p>
+      <p>Mondays-Saturdays</p>
+    </div>
+ </div>
+ 
+ <div class="map"></div>
+ 
+  <div class="call-outs-container">
+    <div class="call-out">
+      <h2>Free Hair Cut!</h2>
+      <p>If you have a head of hair the needs to be cut, than this is the deal for you! Bring in a copy of this coupon, and you will be able to get a free haircut, and take home a comb! No questions asked!</p>
+      <a href="main.html" class="btn3">Learn More</a>
+    </div>
+
+    <div class="call-out">
+      <h2>MVP Treatment</h2>
+      <p> Have you ever wanted to feel like a figure of royalty? Than this is the deal for you! You will start off with a hair wash, then cut, followed by a warm towl rap. You will then get a profesional stylist to give you a new look! This $100 value will
+        be your's for $10. Give this as a gift, or keep for yourself. It's up to you!
+      </p>
+      <a href="main.html" class="btn3">Learn More</a>
+    </div>
+  </div>
+  
+  <script>
+      function initMap() {
+        var uluru = {lat: 38.897957, lng: -77.036560};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2340gk41d1IvD2_4rt9KJ4d8I5scp8mI&callback=initMap">
+  </script>
+  
+</body>
+
+</html>
