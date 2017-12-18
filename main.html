@@ -29,8 +29,8 @@
         </div>
       </div>
     </div>
-
-  <div class="call-outs-container">
+<button id="hidebutton" onclick="hideoffers()">Hide Offers</button>
+  <div id="specialoffers" class="call-outs-container">
     <div class="call-out">
       <h2>Free Hair Cut!</h2>
       <p>If you have a head of hair the needs to be cut, than this is the deal for you! Bring in a copy of this coupon, and you will be able to get a free haircut, and take home a comb! No questions asked!</p>
@@ -44,6 +44,13 @@
         <a href="main.html" class="btn3">Learn More</a>
     </div>
   </div>
+  <script>
+    function hideoffers() {
+      var x= document.getElementById("specialoffers") ;
+      x.style.display="none";
+      var y= document.getElementById("hidebutton") ;
+      y.style.display="none";
+    }
+  </script>
   </body>
-
 </html>
