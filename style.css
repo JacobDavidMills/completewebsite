@@ -163,6 +163,15 @@ body {
   border-radius: 50%;
 }
 
+button {
+  background-color: #00AAFF;
+  color: white;
+  width: 5rem;
+  height: 2rem;
+  margin: 20px auto;
+  
+}
+
 .column-layout {
   max-width: 675px;
   background-color: white;
@@ -212,3 +221,5 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
